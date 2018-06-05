@@ -1,5 +1,6 @@
 from math import sqrt, ceil
 
+#1: Returns true if input is prime, false otherwise.
 def IsPrime(n: int) -> bool:
     if n == 2:
         return True
@@ -12,6 +13,7 @@ def IsPrime(n: int) -> bool:
 
     return True
 
+#0: Main.
 def main():
     boundary_val = 1000000
     num_list     = list(filter(lambda x: IsPrime(x), range(5000)))
