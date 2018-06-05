@@ -24,5 +24,6 @@ def main():
         if IsPrime(sum_of_elements) and sum_of_elements < boundary_val:
             list_of_sums.append(sum_of_elements)
 
-    print(list_of_sums[-1])
+    print("The largest prime sum of primes less than %d is %d"
+            %(boundary_val, list_of_sums[-1]))
 main()
